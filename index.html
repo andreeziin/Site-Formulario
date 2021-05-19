@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Cadastro de Usuário</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width" , initial-scale=1.0>
+    <meta name="viewport" charset="UTF-8">
+    <link rel="stylesheet" href="style/style.css" type="text/css">
+</head>
+
+<body>
+    <main>
+        <form class="grid-form">
+            <div class="span-usuario">
+                <span>Novo Usuário</span>
+                <div class="button-submit">
+                    <input type="submit" value="Enviar">
+                </div>
+            </div>
+
+            <div class="span-pessoais">
+                <span>Dados Pessoais</span>
+            </div>
+
+            <div class="hr-top">
+                <hr color="gray">
+            </div>
+
+            <div class="grid-top">
+                <div class="input-nomeCompleto">
+                    <label for="NomeCompleto"><span>Nome Completo</span></label>
+                    <input type="text" name="RecebeNomeCompleto" id="NomeCompleto" placeholder="Nome Completo">
+                </div>
+
+                <div class="input-email">
+                    <label for="E-mail"><span>E-mail</span></label>
+                    <input type="email" name="RecebeE-mail" id="E-mail" placeholder="E-mail">
+                </div>
+            </div>
+
+            <div class="grid-top-mid">
+                <div class="input-nascimento">
+                    <label for="DataNascimento"><span>Nascimento</span></label>
+                    <input type="date" name="RecebeDataNascimento" id="DataNascimento">
+                </div>
+
+                <div class="input-genero">
+                    <label for="Genero"><span>Gênero</span></label>
+                    <select id="country" name="country">
+                        <option value="masculino">Masculino</option>
+                        <option value="feminino">Feminino</option>
+                        <option value="outro">Outro</option>
+                    </select>
+                </div>
+
+                <div class="input-senha">
+                    <label for="Senha"><span>Senha</span></label>
+                    <input type="password" name="RecebeSenha" id="Senha" placeholder="Senha">
+                </div>
+
+                <div class="input-confirmaSenha">
+                    <label for="ConfirmaSenha"><span>Confirmar Senha</span></label>
+                    <input type="password" name="RecebeConfirmarSenha" id="ConfirmaSenha" placeholder="Confirmar Senha">
+                </div>
+            </div>
+
+            <div class="span-endereco">
+                <span>Endereço</span>
+            </div>
+
+            <div class="hr-top">
+                <hr color="gray">
+            </div>
+
+            <div class="grid-buttom">
+                <div class="grid-endereco-1">
+                    <div class="input-nomeCompleto">
+                        <label for="Rua"><span>Rua</span></label>
+                        <input type="text" name="RecebeRua" id="Rua" placeholder="Nome da Rua">
+                    </div>
+
+                    <div class="input-nomeCompleto">
+                        <label for="Bairro"><span>Bairro</span></label>
+                        <input type="text" name="RecebeBairro" id="Bairro" placeholder="Nome do Bairro">
+                    </div>
+
+                    <div class="input-nomeCompleto">
+                        <label for="Cidade"><span>Cidade</span></label>
+                        <input type="text" name="RecebeCidade" id="Cidade" placeholder="Nome da Cidade">
+                    </div>
+                </div>
+
+                <div class="grid-endereco-2">
+                    <div class="input-nomeCompleto">
+                        <label for="Estado"><span>Estado</span></label>
+                        <input type="text" name="RecebeEstado" id="Estado" placeholder="Nome do Estado">
+                    </div>
+
+                    <div class="input-nomeCompleto">
+                        <label for="Numero-Telefone"><span>Número Telefone</span></label>
+                        <input type="text" name="RecebeNomeCompleto" id="NomeCompleto" placeholder="Número Telefone">
+                    </div>
+
+                    <div class="input-nomeCompleto">
+                        <label for="Numero-Residencia"><span>Número Residência</span></label>
+                        <input type="text" name="RecebeNumero-Residencia" id="Numero-Residencia"
+                            placeholder="Número da Residência">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </main>
+    <footer class="grid-footer">
+        <div class="grid-itens">
+            <div class="footer-name">
+                <span>Feito por André Ribeiro de Souza</span>
+            </div>
+            <div class="grid-images">
+                <div>
+                    <img src="images/logotipo-etec.png">
+                    <img src="images/logo-centro-paula-souza-footer.png">
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

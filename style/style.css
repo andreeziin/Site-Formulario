@@ -1,0 +1,225 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.grid-form {
+    margin: auto;
+    width: 1500px;
+}
+
+/* FORM */
+
+.span-usuario {
+    padding: 20px 0px 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.button-submit input[type=submit]{
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+.span-usuario span {
+    font-family: montserrat;
+    font-size: 30px;
+}
+
+.span-pessoais {
+    padding: 10px 0 20px 0px;
+}
+
+.span-pessoais span {
+    font-family: montserrat;
+    color: rgb(0, 192, 192);
+}
+
+.span-endereco {
+    padding: 10px 0 20px 0px;
+}
+
+.span-endereco span {
+    font-family: montserrat;
+    color: rgb(0, 192, 192);
+}
+
+.nome-email span {
+    font-family: montserrat;
+    font-size: 17px;
+}
+
+.hr-top {
+    opacity: 0.5;
+}
+
+.grid-top {
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.grid-top-mid {
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+/* INPUTs */
+
+.input-nomeCompleto {
+    padding: 10px 0px 10px 0px;
+    font-family: montserrat;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-email {
+    padding: 10px 0px 10px 0px;
+    font-family: montserrat;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-nomeCompleto input[type=text] {
+    width: 720px;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border: 1px solid rgb(167, 166, 166);
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: montserrat;
+}
+
+.input-email input[type=email] {
+    width: 720px;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border: 1px solid rgb(167, 166, 166);
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: montserrat;
+}
+
+.input-nascimento {
+    font-family: montserrat;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-nascimento input[type=date] {
+    font-family: montserrat;
+    box-sizing: border-box;
+    width: 330px;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    border: 1px solid rgb(167, 166, 166);
+}
+
+.input-genero {
+    font-family: montserrat;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-genero select {
+    font-family: montserrat;
+    box-sizing: border-box;
+    width: 330px;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    border: 1px solid rgb(167, 166, 166);
+}
+
+.input-senha {
+    font-family: montserrat;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-senha input[type=password] {
+    font-family: montserrat;
+    box-sizing: border-box;
+    width: 330px;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    border: 1px solid rgb(167, 166, 166);
+}
+
+.input-confirmaSenha {
+    font-family: montserrat;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-confirmaSenha input[type=password] {
+    font-family: montserrat;
+    box-sizing: border-box;
+    width: 330px;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    border: 1px solid rgb(167, 166, 166);
+}
+
+/* ENDEREÇO */
+
+.grid-buttom {
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.input-nomeCompleto input[type=number] {
+    font-family: montserrat;
+    box-sizing: border-box;
+    width: 330px;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    border: 1px solid rgb(167, 166, 166);
+}
+
+/* FOOTER */
+
+.grid-footer {
+    background-color: rgb(3, 141, 141);;
+}
+
+.grid-itens{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 1500px;
+}
+
+.footer-name{
+    font-family: montserrat;
+    font-weight: 700;
+    padding: 15px 0px 10px 0px;
+}
+
+.grid-images{
+    padding: 10px 0px 10px 0px;
+}
