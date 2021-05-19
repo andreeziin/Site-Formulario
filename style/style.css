@@ -32,8 +32,14 @@
 
 input[type=submit]:hover {
     background-color: #45a049;
-  }
+}
   
+.footer-estudante span{
+    font-family: montserrat;
+    font-size: 15px;
+    font-weight:500;
+}
+
 .span-usuario span {
     font-family: montserrat;
     font-size: 30px;
